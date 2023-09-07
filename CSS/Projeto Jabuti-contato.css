@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#fundo{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    background-color: #27e8fe;
+}
+
+/*menu*/
+
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: linear-gradient(to bottom, #fff, transparent);
+    font-size: 20px;
+}
+
+header a{
+    color: rgb(255, 131, 199);
+    text-decoration: none;
+    float: right;
+    padding: 30px;
+}
+
+header a:hover{
+    background-color: rgb(173, 255, 237) ;
+    text-decoration: none;
+    color: rgb(255, 131, 199);
+    transition: 2s all;
+}
+
+#logo{
+    position: relative;
+    width: 20%;
+    height: 80px;
+
+}
+
+#logo img{
+    height: 200%;
+    width: 100%;
+    position: absolute;
+}
+
+/*conteúdo*/
+
+#texto_principal{
+    position: relative;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    padding-top: 143px;
+    font-weight: bold;
+}
+
+#caixa1{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    bottom: 50px;
+}
+
+#caixa_items{
+    top: 380px;
+    position: absolute;
+    width: 80%;
+    height: 50px;
+    left: 5%;
+}
+
+#caixa_items .elementos{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#caixa_items .elementos #email{
+    width: 70px;
+    height: 70px;
+    padding-right: 400px;
+}
+
+#caixa_items .elementos #telefone{
+    width: 65px;
+    height: 65px;
+    padding-right: 400px;
+}
+
+#caixa_items .elementos #chat{
+    width: 70px;
+    height: 70px;
+}
+
+#nomes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(255, 131, 199);
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#nomes #email_nome{
+    width: 100px;
+    padding-left: 55px;
+    padding-right: 35%;
+}
+
+#nome #telefone_nome{
+    width: 90px;
+}
+
+#nomes #chat_nome{
+    width: 100px;
+    padding-left: 410px;
+    padding-right: 25px;
+}
+
+#sub_titulo{
+    display: flex;
+    width: 1400px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sub_titulo #email_sub{
+    width: 210px;
+    padding-left: 9px;
+}
+
+#sub_titulo #telefone_sub{
+    padding-left: 270px;
+    width: 300px;
+}
+
+#sub_titulo #chat_sub{
+    width: 250px;
+    padding-left: 170px;
+    padding-right: 10px;
+
+}
+
+#informações{
+    display: flex;
+    width: 928px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#informações #email_inf{
+    width: 210px;
+    padding-left: 5px;
+}
+
+#informações #telefone_inf{
+    padding-left: 263px;
+    width: 300px;
+}
+
+#chat_inf{
+    position: relative;
+    left: 1095px;
+    bottom: 27px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*rodapé*/
+
+#rodape{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background-color: #4BC5BD;
+    
+}
+
+#mapa_rdp{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    float: left;
+}
+
+#grama_esq{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#caixa_end{
+    position: relative;
+    float: left;
+    left: 50px;
+    top: 50px;
+    width: 20%;
+}
+
+#end_rdp{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tarta{
+    position: relative;
+    left: 5%;
+    float: left;
+}
+
+#grama_mei{
+    position: absolute;
+    left: 860px;
+    bottom: 0px;
+}
+
+#apps_rdp{
+    display: flex;
+    width: 20%;
+    position: absolute;
+    float: left;
+    left: 75%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 100px;
+    z-index: 1;
+}
+
+#grama_dir{
+    position: absolute;
+    left: 83%;
+    bottom: 0px;
+}

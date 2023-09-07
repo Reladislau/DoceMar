@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    color: #7a553a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background-color: #68f0ff;
+    font-size: 20px;
+}
+
+/*menu*/
+
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: linear-gradient(to bottom, #fff, transparent);
+    font-size: 20px;
+}
+
+header a{
+    color: rgb(255, 131, 199);
+    text-decoration: none;
+    float: right;
+    padding: 30px;
+}
+
+header a:hover{
+    background-color:rgb(255, 131, 199) ;
+    text-decoration: none;
+    color: #fff;
+    transition: 2s all;
+}
+
+#logo{
+    position: relative;
+    width: 20%;
+    height: 80px;
+
+}
+
+#logo img{
+    height: 200%;
+    width: 100%;
+    position: absolute;
+}
+
+/* PRODUTOS */
+
+#boas_vindas{
+    width: 77%;
+    position: relative;
+    left: 13%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-top: 150px;
+}
+
+#titulo1{
+    position: relative;
+    width: 40%;
+    height: 60px;
+    background-color:rgb(255, 131, 199);;
+    margin:auto;
+    margin-top: 55px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    
+}
+
+#titulo1 h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    color:#fff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.item {
+    width: 300px;
+    border: 1px solid rgb(255, 131, 199);
+    background-color: #fffce4;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.texto{
+    padding: 20px 10px;
+    display:grid;
+    grid-template-rows: auto fr 50px;
+    grid-row-gap: 15px;
+}
+
+.subtexto {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+
+.subtexto h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+.texto p{
+    color: #6f6f6f;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch; 
+
+}
+.preço{
+    text-align: right;
+}
+
+/*rodapé*/
+
+#rodape{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background-color: #4BC5BD;
+    margin-top: 200px;
+    
+}
+
+#mapa_rdp{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    float: left;
+}
+
+#grama_esq{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#caixa_end{
+    position: relative;
+    float: left;
+    left: 50px;
+    top: 50px;
+    width: 20%;
+}
+
+#end_rdp{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tarta{
+    position: relative;
+    left: 5%;
+    float: left;
+}
+
+#grama_mei{
+    position: absolute;
+    left: 860px;
+    bottom: 0px;
+}
+
+#apps_rdp{
+    display: flex;
+    width: 20%;
+    position: absolute;
+    float: left;
+    left: 75%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 100px;
+    z-index: 1;
+}
+
+#grama_dir{
+    position: absolute;
+    left: 83%;
+    bottom: 0px;
+}

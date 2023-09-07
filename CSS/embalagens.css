@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    color: #7a553a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(255, 131, 199);
+    font-size: 20px;
+}
+
+
+/*HEADER*/
+
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: linear-gradient(to bottom, #fff, transparent);
+    font-size: 20px;
+}
+
+header a{
+    color: rgb(255, 131, 199);
+    text-decoration: none;
+    float: right;
+    padding: 30px;
+}
+
+header a:hover{
+    background-color: rgb(173, 255, 237) ;
+    text-decoration: none;
+    color: rgb(255, 131, 199);
+    transition: 2s all;
+}
+
+#logo{
+    position: relative;
+    width: 20%;
+    height: 80px;
+
+}
+
+#logo img{
+    height: 200%;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+/*CONTEÚDO*/
+
+#menusuperior{
+    height: 1500px;
+}
+
+#produtos{
+    width: 100%;
+    height: 2000px;
+    position: relative;
+    margin-top: 115px;
+}
+
+#titulo{
+    position: relative;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    padding-top: 145px;
+    font-weight: bold;
+}
+
+#titulo_embalagem1{
+    width: 30%;
+    height: 20px;
+    background-color: rgb(92, 205, 205);
+    position: relative;
+    margin-top: auto;
+    margin-left: 160px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#embalagem1{
+    width: 40%;
+    height: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 100px;
+    margin-bottom: 65px;
+    float: left;
+    border-radius: 150px;
+}
+
+#embalagem1 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#descrição1{
+    position: relative;
+    width: 40%;
+    height: 150px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+
+#titulo_embalagem2{
+    width: 30%;
+    height: 20px;
+    background-color: rgb(92, 205, 205);
+    position: relative;
+    margin-top: 100px;
+    margin-left: 160px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    clear: left;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 150px;
+    color: #FFF;
+ 
+}
+
+#embalagem2{
+    width: 40%;
+    height: 450px;
+
+    position: relative;
+    margin-top: 35px;
+    margin-left: 100px;
+    text-align: center;
+    float: left;
+    margin-bottom: 65px;
+}
+
+#embalagem2 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#descrição2{
+    position: relative;
+    width: 40%;
+    height: 150px;
+       float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+
+#titulo_embalagem3{
+    width: 30%;
+    height: 20px;
+    background-color: rgb(92, 205, 205);
+    position: relative;
+    margin-top: 65px;
+    margin-left: 160px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    clear: left;
+    font-size: 15px;
+    border-radius: 150px;
+    color: #FFF;
+}
+
+#embalagem3{
+    width: 40%;
+    height: 450px;
+    position: relative;
+    margin-top: 35px;
+    margin-left: 100px;
+    margin-bottom: 65px;
+    text-align: center;
+    float: left;
+}
+
+#embalagem3 img{
+    height: 100%;
+    width: 100%;
+}
+
+#descrição3{
+    position: relative;
+    width: 40%;
+    height: 150px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+
+#novo{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+
+}
+
+#desespero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 100px;
+    margin-bottom: 65px;
+    
+}
+
+#titulo4{
+    background-color: rgb(92, 205, 205);
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 150px;
+    color: #FFF;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+}
+
+#emb4 img{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+#descri4{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    margin-right: 40px;
+
+}
+
+/*rodapé*/
+
+#rodape{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background-color: #4BC5BD;
+    margin-top: 200px;
+    
+}
+
+#mapa_rdp{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    float: left;
+}
+
+#grama_esq{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#caixa_end{
+    position: relative;
+    float: left;
+    left: 50px;
+    top: 50px;
+    width: 20%;
+}
+
+#end_rdp{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tarta{
+    position: relative;
+    left: 5%;
+    float: left;
+}
+
+#grama_mei{
+    position: absolute;
+    left: 860px;
+    bottom: 0px;
+}
+
+#apps_rdp{
+    display: flex;
+    width: 20%;
+    position: absolute;
+    float: left;
+    left: 75%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 100px;
+    z-index: 1;
+}
+
+#grama_dir{
+    position: absolute;
+    left: 83%;
+    bottom: 0px;
+}

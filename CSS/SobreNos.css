@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    color: #7a553a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    background-color: #68f0ff;
+    font-size: 18px;
+}
+
+/*menu*/
+
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: linear-gradient(to bottom, #fff, transparent);
+    font-size: 20px;
+}
+
+header a{
+    color: rgb(255, 131, 199);
+    text-decoration: none;
+    float: right;
+    padding: 30px;
+}
+
+header a:hover{
+    background-color: rgb(255, 131, 199);
+    text-decoration: none;
+    color: #fff;
+    transition: 2s all;
+}
+
+#logo{
+    position: relative;
+    width: 20%;
+    height: 80px;
+
+}
+
+#logo img{
+    height: 200%;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+/*CONTEÚDO*/
+
+#texto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+
+    /*margin top, left, right... caso não funcione, use padding*/
+}
+
+#divisona{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#divisona h1{
+    background-color:#97bcfd;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    color: #fff;
+   
+}
+
+#ongs{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    text-align: center;
+    
+}
+
+#ongs img{
+    width: 30%;
+}
+
+#uipa, #tamar, #aquasis{
+    width: 30%;
+    background-color: #fffce4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#aquasisimg img{
+    width: 200px;
+    height: 130px;
+}
+
+#botao1, #botao2, #botao3{
+    position: relative;
+    width: 50%;
+    font-size: 20px;
+    background-color: #97bcfd;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+/*RODAPÉ*/
+
+#rodape{
+    position: absolute;
+    width: 100%;
+    height: 280px;
+    background-color: #4BC5BD;
+    margin-top: 200px;
+    
+}
+
+#mapa_rdp{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    float: left;
+}
+
+#grama_esq{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#caixa_end{
+    position: relative;
+    float: left;
+    left: 50px;
+    top: 50px;
+    width: 20%;
+}
+
+#end_rdp{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tarta{
+    position: relative;
+    left: 5%;
+    float: left;
+}
+
+#grama_mei{
+    position: absolute;
+    left: 860px;
+    bottom: 0px;
+}
+
+#apps_rdp{
+    display: flex;
+    width: 20%;
+    position: absolute;
+    float: left;
+    left: 75%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 100px;
+    z-index: 1;
+}
+
+#grama_dir{
+    position: absolute;
+    left: 83%;
+    bottom: 0px;
+}
